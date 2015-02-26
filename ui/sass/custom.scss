@@ -3,7 +3,7 @@
 
 $yellow-cb : #FFCB00;
 $yellow-cc : #FFCC00;
-$font-weight-light : 400;
+$font-weight-light : 300;
 
 $grey : #EDEDED;
 
@@ -12,7 +12,7 @@ $grey : #EDEDED;
 	width: 100%;
 	text-align: center;
 	display: block;
-	padding: 20px 0 0;
+	padding: 10px 0 0;
 	img{
 		margin: auto;
 		width: auto;
@@ -22,7 +22,6 @@ $grey : #EDEDED;
 }
 .navbar-main{
 	background-color: #ffcc00;
-	min-height: 150px;
 	border-bottom: 7px solid #000;
 	margin-bottom: 0;
 	.navbar-toggle{
@@ -42,14 +41,15 @@ $grey : #EDEDED;
 	.navbar-form{
 		border-color:transparent;
 		padding: 0;
-		margin: 12px 0 0px;
+		margin: 15px 0 0px;
+
 	}
 }
 .top-actions{
-	margin-top: 20px;
+	margin-top: 15px;
 }
 .social-links{
-	margin: 10px 30px 0px;
+	margin: 10px 0px 0px 30px;
 	li{
 		padding: 0px 2px;		
 		width: auto !important;
@@ -66,7 +66,7 @@ $grey : #EDEDED;
 @include all-social-sprites;
 
 .tel{
-	font-size: 18px;
+	font-size: 15.2px;
 	color: #000;
 	font-weight: bold;
 	margin-top: 10px;
@@ -77,23 +77,34 @@ $grey : #EDEDED;
 }
 
 .navigation{
-	margin-top: 20px;
+	margin-top: 10px;
 
 	.form-search{
-		.input-search{
-			height: 40px;
-			border: none;
-		}
-		.btn-search{
-			height: 40px;
-			background-color: #000;
-			border: none;
-			width: 50px;
-			background-image: url(../images/search-icon.jpg);
-			background-repeat: no-repeat;
-			background-position: center;
-			&:active{
-				z-index: 0;
+		width: 100%;
+		.input-group{	
+			width: 100%;
+			.input-search{
+				height: 35px;
+				border: none;
+				@include border-right-radius(0px);
+				@include border-left-radius(3px);
+				@include box-shadow(transparent 2px 2px 10px);
+			}
+
+			.btn-search{
+				margin: 0;
+				height: 35px;
+				background-color: #000;
+				border: none;
+				width: 39px;
+				border-left: 1px solid #c5c5c5;
+				background-image: url(../images/search-icon.jpg);
+				background-repeat: no-repeat;
+				background-size: 50%;
+				background-position: center;
+				&:active{
+					z-index: 0;
+				}
 			}
 		}
 	}
@@ -102,9 +113,10 @@ $grey : #EDEDED;
 		>li{
 			>a{
 				color: #000;
-				font-size: 17px;
-				border-radius: 8px 8px 0px 0px;
-				padding: 15px 15px;
+				font-size: 14px;
+				@include border-top-radius(8px);
+				padding: 15px 15px 20px;
+				margin: 0 1px;
 				&:hover,&:focus,&:active{
 					color: #fff;
 					background-color: #000;
@@ -133,11 +145,11 @@ $grey : #EDEDED;
 			background-color: #fff;
 			@include opacity(0.7);
 			bottom: initial;
-			padding: 40px 30px 30px;
+			padding: 25px 60px 25px;
 			h3{
-				margin: 0;
+				margin: 0 0 10px;
 				padding: 0;
-				font-size: 50px;
+				font-size: 42px;
 				color: #000;
 				text-shadow:none;
 				font-weight: $font-weight-light;
@@ -145,7 +157,7 @@ $grey : #EDEDED;
 			p{
 				margin: 0;
 				padding: 0;
-				font-size: 20px;
+				font-size: 17px;
 				color: #656565;
 				text-shadow:none;
 				font-weight: $font-weight-light;				
@@ -191,17 +203,22 @@ $grey : #EDEDED;
 }
 
 #subsidaries{
-	margin-top: 45px;
-	margin-bottom: 25px;
+	margin-top: 35px;
+	margin-bottom: 20px;
 	.row{
 		margin-bottom: 20px;
 		.subsidary-box{
 			background-color: #EBEBEB;
 			border-radius: 10px;
 			padding: 30px 20px 20px;
-
+			.logo-holder{
+				min-height: 100px;
+				img{
+					min-width: 100%;
+				}
+			}
 			p{
-				font-size: 18px;
+				font-size: 15.2px;
 				font-weight: $font-weight-light;
 				margin: 10px 0px 20px;
 			}
@@ -209,9 +226,10 @@ $grey : #EDEDED;
 				background-color: $yellow-cb;
 				border: none;
 				font-weight: 600;
-				font-size: 20px;
+				font-size: 17px;
 				color: #000;
-				padding: 10px 60px;
+				line-height: 1;
+				padding: 10px 45px;
 			}
 		}
 	}
@@ -226,12 +244,12 @@ $grey : #EDEDED;
 		background-size: contain;
 
 		h3{
-			font-size: 45px;
+			font-size: 38px;
 			font-weight: $font-weight-light;
 			margin: 0 0 20px;
 		}
 		p{
-			font-size: 20px;
+			font-size: 17px;
 			font-weight: $font-weight-light;
 			margin-bottom: 20px;
 		}
@@ -242,14 +260,15 @@ $grey : #EDEDED;
 			}
 		}
 		.c2a-text{
-			padding-top: 60px;
-			padding-bottom: 45px;
+			padding-top: 40px;
+			padding-bottom: 30px;
 			.btn-learnmore{
 				border: 1px solid #C3C3C3;
 				background: #999999;
 				color: #fff;
 				font-weight: bold;
-				padding: 10px 80px;
+				padding: 10px 60px;
+				line-height: 1;
 			}
 		}
 		
@@ -257,25 +276,43 @@ $grey : #EDEDED;
 }
 
 #quote{
-	blockquote{
-		width: 100%;
-		border: none;
-		font-size: 28px;
-		font-weight: $font-weight-light;
-		padding: 60px 0px;
-		margin: 0;
-		color: #656565;
-		p{
-			margin: 0;
-		}
-		strong{
+	#owl-testimonials{
+		padding: 40px 15px;
+		blockquote{
 			width: 100%;
+			border: none;
+			font-size: 24px;
+			font-weight: $font-weight-light;
+			margin: 0;
+			padding: 0 0 10px;
+			color: #656565;
+			p{
+				margin: 0;
+			}
+			strong{
+				width: 100%;
+			}
+		}		
+	}
+	.owl-theme {
+		.owl-controls{
+			.owl-page{
+				span{
+					background: #656565;
+					@include opacity(0.75);
+				}
+				&.active, &:hover{
+					span{
+						background: #FFCC00;
+					}
+				}
+			}
 		}
 	}
 }
 
 #partners{
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 	#owl-wrapper{
 		position: relative;
 		#owl-partners{
@@ -318,13 +355,13 @@ $grey : #EDEDED;
 #newsletter{
 	background-color: $yellow-cb;
 	border-top: 1px solid #FFF2BF;
-	padding: 25px 0;
+	padding: 20px 0;
 	h4{
 		margin: 0;
 		line-height: 1.4;
 	}
 	p{
-		font-size: 12px;
+		font-size: 13px;
 		margin: 10px 0 0 0;
 	}
 	a{
@@ -333,27 +370,20 @@ $grey : #EDEDED;
 	}
 
 	.form-newsletter{
-		margin: 20px 0px;
+		margin: 5px 0px 0px;
 		.form-control,.btn-submit{
 			height: 40px;
 			border-radius: 8px;
 		}		
-		.form-group{
-			font-size: 16px;
-			width: 35%;
-			margin-right: 15px;
-			.form-control{
-				width: 100%;
-				border: none;
-			}
-		}
 		.btn-submit{
-			width: 24%;
-			color: $yellow-cb;
+			color: #fff;
 			background-color: #000;
 			font-weight: bold;
-			font-size: 20px;
+			font-size: 17px;
 			border:none;
+			text-decoration: none;
+			padding: 10px 50px;
+			line-height: 1;
 		}
 	}
 }
@@ -361,7 +391,7 @@ $grey : #EDEDED;
 footer{
 	#fblocks{
 		background:#000;
-		padding: 30px 0 50px;
+		padding: 25px 0 40px;
 		a{
 			color: inherit;
 			&:hover,&:focus,&:active{
@@ -372,14 +402,14 @@ footer{
 			h4{
 				margin: 0;
 				color: #fff;
-				font-size: 18px;
+				font-size: 15.2px;
 				font-weight: bold;
 				margin-bottom: 20px;
 			}
 			p{
 				color: #fff;
 				margin: 0 0 16px; 
-				font-size: 16px;
+				font-size: 14px;
 				line-height: 1.325;
 			}
 			ul{
@@ -392,8 +422,9 @@ footer{
 					color: #fff;
 					line-height: 1.2;
 					padding: 8px 0px;
+					font-size: 13px;					
 					&:first-child{
-						padding-top:5px;
+						padding-top:0px;
 					}
 				}
 			}
@@ -401,7 +432,7 @@ footer{
 			#address{
 				p{
 					margin: 0;
-					font-size: 14px;
+					font-size: 13px;
 				}
 			}
 			.social-links{
@@ -411,12 +442,12 @@ footer{
 		
 	}
 	#copyright{
-		padding: 20px 0px 30px;
+		padding: 20px 0px;
 		background-color: #fff;
 		p{
 			color: #333333;
 			margin: 0;
-			font-size: 14px;
+			font-size: 13px;
 		}
 		a{
 			color: #999999;
@@ -427,6 +458,9 @@ footer{
 /* ---------- About Us Page ---------- */
 #page-banner{
 	margin-bottom: 60px;
+	img{
+		min-width: 100%;
+	}
 }
 @import "all-icons/*.png";
 .content-wrapper{
@@ -451,7 +485,7 @@ footer{
 				margin: 10px 0px;
 				padding-left: 30px;
 				line-height: 22px;
-				font-size: 16px;
+				font-size: 14px;
 
 				&:before{
 					content: " ";
@@ -487,17 +521,17 @@ footer{
 			border-radius: 10px;
 			blockquote{
 				border: none;
-				font-size: 16px;
+				font-size: 14px;
 				margin: 0;
-				padding: 30px 10px 20px;
+				padding: 20px 10px 15px;
 				color: #434343;
 				text-align: center;
 			}
 			p{
 				text-align: center;
 				margin: 0;
-				padding: 0 0 30px;
-				font-size: 16px;
+				padding: 0 0 20px;
+				font-size: 14px;
 				font-weight: bold;
 			}
 		}
@@ -523,7 +557,7 @@ footer{
 	}
 	p{
 		color: #434343;
-		font-size: 16px;
+		font-size: 15px;
 		margin-bottom: 25px;		
 	}
 	hr{
@@ -634,7 +668,7 @@ footer{
 		padding: 5px 45px;
 		border:none;
 		font-weight: bold;
-		font-size: 18px;
+		font-size: 15.2px;
 	}
 	.post-image{
 		img{
@@ -725,6 +759,17 @@ footer{
 	.navbar-main{
 		.navbar-form{
 			text-align: center;
+		}
+	}
+
+	.navigation{
+
+		.main-nav{
+			>li{
+				>a{
+					padding: 15px 14px;
+				}
+			}
 		}
 	}
 	#owl-main-carousel{ 

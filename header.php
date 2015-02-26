@@ -29,8 +29,7 @@
                                 <li><a class="social-icon social-gplus" href="#"></a></li>
                                 <li><a class="social-icon social-pinterest" href="#"></a></li>
                                 <li><a class="social-icon social-email" href="#"></a></li>
-                            </ul>
-                            <a class="pull-left buy" href="#"><img src="ui/images/shop-now.png" class="img-responsive"></a>  
+                            </ul>  
                         </div>                            
                     </div>
                 </div>

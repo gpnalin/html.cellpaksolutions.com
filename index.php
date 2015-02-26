@@ -45,34 +45,40 @@
     <section id="subsidaries">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="subsidary-box text-center">
-                        <img src="ui/images/logo-breeze.jpg" class="img-responsive inline-block">
+                        <div class="logo-holder">
+                            <img src="ui/images/logo-breeze.jpg" class="img-responsive inline-block">
+                        </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
                         <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="subsidary-box text-center">
-                        <img src="ui/images/logo-copak.jpg" class="img-responsive inline-block">
+                        <div class="logo-holder">
+                            <img src="ui/images/logo-copak.jpg" class="img-responsive inline-block">
+                        </div>                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
                         <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="subsidary-box text-center">
-                        <img src="ui/images/logo-devicehub.jpg" class="img-responsive inline-block">
+                        <div class="logo-holder">
+                            <img src="ui/images/logo-devicehub.jpg" class="img-responsive inline-block">                            
+                        </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
                         <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="subsidary-box text-center">
-                        <img src="ui/images/logo-packthat.jpg" class="img-responsive inline-block">
+                        <div class="logo-holder">
+                            <img src="ui/images/logo-packthat.jpg" class="img-responsive inline-block">
+                        </div>                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
-                        <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
+                        <a href class="btn btn-lg btn-default btn-learnmore">Shop now</a>
                     </div>
                 </div>
             </div>
@@ -94,8 +100,19 @@
     <section id="quote">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-center">
-                    <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging. They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
+                <div id="owl-testimonials" class="owl-carousel">
+                  <div class="item text-center">
+                      <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
+                  </div>
+                  <div class="item text-center">
+                      <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging. They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
+                  </div> 
+                  <div class="item text-center">
+                      <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging. Cellpak are our first port of call when we have a need for branded packaging. They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
+                  </div> 
+                  <div class="item text-center">
+                      <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging.  They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
+                  </div>                
                 </div>
             </div>
         </div>

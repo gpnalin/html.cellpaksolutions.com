@@ -54,22 +54,14 @@
 <section id="newsletter">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-5">
+            <div class="col-xs-12 col-sm-9">
                 <h4><strong>Why not subscribe to our newsletter?</strong> A free monthly round up of the latest packaging & fulfilment news.</h4>
                 <p>We respect your privacy. View our <a href="#">Privacy Policy</a> to find out more.</p>
             </div>
-            <div class="col-xs-12 col-sm-7">
-                <form class="form-inline form-newsletter">
-                  <div class="form-group">
-                    <label class="sr-only" for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Name">
-                  </div>
-                  <div class="form-group">
-                    <label class="sr-only" for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                  </div>
-                  <button type="submit" class="btn btn-default btn-submit">Subscribe</button>
-                </form>
+            <div class="col-xs-12 col-sm-3">
+                <div class="form-inline form-newsletter text-right">                
+                  <a href="#" class="btn btn-default btn-submit">Subscribe</a>
+                </div>
             </div>
         </div>
     </div>
@@ -126,7 +118,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <p class="pull-left">&copy; 2014 Cellpak Solutions Ltd. All rights reserved. <a href="#">Cookies & Privacy Policy</a></p>
-                    <p class="pull-right">Website by <a href="#">Concentric Marketing</a></p>                    
+                    <p class="pull-right">Web design and developed by <a href="#">One Creations</a></p>                    
                 </div>
             </div>
         </div>

@@ -13,6 +13,7 @@ $(document).ready(function() {
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem: true,
+      autoHeight : true,
       mouseDrag: false
  
       // "singleItem:true" is a shortcut for:
@@ -24,6 +25,13 @@ $(document).ready(function() {
  
   });
 
+  //testimonials silder
+  $("#owl-testimonials").owlCarousel({
+    singleItem: true,
+    autoHeight : true
+  });
+
+  // partners slider
   var partners = $("#owl-partners"); 
   partners.owlCarousel({
       pagination:false
