@@ -21,7 +21,6 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-md-9 top-util pull-right text-right">
                         <div class="pull-right top-actions">
-                            <a class="pull-left tel" href="tel:+441992653113">+44 1992 653113</a>
                             <ul class="pull-left list-inline social-links">
                                 <li><a class="social-icon social-facebook" href="#"></a></li>
                                 <li><a class="social-icon social-linkedin" href="#"></a></li>

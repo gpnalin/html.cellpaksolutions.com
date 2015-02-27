@@ -48,6 +48,15 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="subsidary-box text-center">
                         <div class="logo-holder">
+                            <img src="ui/images/logo-packthat.jpg" class="img-responsive inline-block">
+                        </div>                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
+                        <a href class="btn btn-lg btn-default btn-learnmore">Shop now</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="subsidary-box text-center">
+                        <div class="logo-holder">
                             <img src="ui/images/logo-breeze.jpg" class="img-responsive inline-block">
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
@@ -71,16 +80,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
                         <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="subsidary-box text-center">
-                        <div class="logo-holder">
-                            <img src="ui/images/logo-packthat.jpg" class="img-responsive inline-block">
-                        </div>                        
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
-                        <a href class="btn btn-lg btn-default btn-learnmore">Shop now</a>
-                    </div>
-                </div>
+                </div>                
             </div>
         </div>
     </section>
