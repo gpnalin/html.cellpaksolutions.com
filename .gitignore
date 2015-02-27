@@ -46,3 +46,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# exclude everything except directory foo/bar
+/*
+!/wp-content
+/wp-content/*
