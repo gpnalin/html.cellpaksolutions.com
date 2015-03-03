@@ -123,6 +123,9 @@ $grey : #EDEDED;
 				}
 			}
 		}
+		.dropdown{
+			position: static;
+		}
 		.dropdown:hover, .dropdown:focus, .dropdown:active,  >.active, >.open{
 			>a{
 				color: #fff !important;
@@ -142,6 +145,8 @@ $grey : #EDEDED;
 	.item{
 		.carousel-caption{
 			top: 25%;
+			left: 15%;
+			right: 15%;
 			background-color: #fff;
 			@include opacity(0.7);
 			bottom: initial;
@@ -192,12 +197,12 @@ $grey : #EDEDED;
 		}
 		.owl-prev { 
 			@include slider-sprite(prev);
-			left:10%;
+			left:0;
 
 		}
 		.owl-next {
 			@include slider-sprite(next);
-			right:10%;
+			right:0;
 		}
 	}	
 }
@@ -212,7 +217,7 @@ $grey : #EDEDED;
 			border-radius: 10px;
 			padding: 30px 20px 20px;
 			.logo-holder{
-				min-height: 100px;
+				// min-height: 100px;
 				img{
 					min-width: 100%;
 				}

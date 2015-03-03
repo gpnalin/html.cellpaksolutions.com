@@ -10,6 +10,8 @@
 
 <body id="page-top" class="index">
     <?php include 'header.php'; ?>
+    
+    <div class="container">
 
     <div id="owl-main-carousel" class="owl-carousel owl-theme"> 
         <div class="item">
@@ -41,6 +43,8 @@
             </div>
         </div>     
     </div>
+    
+    </div>
     <!-- Header -->
     <section id="subsidaries">
         <div class="container">
@@ -48,7 +52,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="subsidary-box text-center">
                         <div class="logo-holder">
-                            <img src="ui/images/logo-packthat.jpg" class="img-responsive inline-block">
+                            <img src="ui/images/logo-packthat.png" class="img-responsive inline-block">
                         </div>                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
                         <a href class="btn btn-lg btn-default btn-learnmore">Shop now</a>
@@ -57,7 +61,16 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="subsidary-box text-center">
                         <div class="logo-holder">
-                            <img src="ui/images/logo-breeze.jpg" class="img-responsive inline-block">
+                            <img src="ui/images/logo-devicehub.png" class="img-responsive inline-block">                            
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
+                        <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
+                    </div>
+                </div>  
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="subsidary-box text-center">
+                        <div class="logo-holder">
+                            <img src="ui/images/logo-breeze.png" class="img-responsive inline-block">
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
                         <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
@@ -66,21 +79,13 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="subsidary-box text-center">
                         <div class="logo-holder">
-                            <img src="ui/images/logo-copak.jpg" class="img-responsive inline-block">
+                            <img src="ui/images/logo-copak.png" class="img-responsive inline-block">
                         </div>                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
                         <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="subsidary-box text-center">
-                        <div class="logo-holder">
-                            <img src="ui/images/logo-devicehub.jpg" class="img-responsive inline-block">                            
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a bibendum dolor. Pellentesque eu feugiat tortor. Se disse potenti.</p>                    
-                        <a href class="btn btn-lg btn-default btn-learnmore">Learn more</a>
-                    </div>
-                </div>                
+                              
             </div>
         </div>
     </section>
@@ -102,13 +107,13 @@
             <div class="row">
                 <div id="owl-testimonials" class="owl-carousel">
                   <div class="item text-center">
-                      <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
+                      <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging. They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
                   </div>
                   <div class="item text-center">
                       <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging. They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
                   </div> 
                   <div class="item text-center">
-                      <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging. Cellpak are our first port of call when we have a need for branded packaging. They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
+                      <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging. They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>
                   </div> 
                   <div class="item text-center">
                       <blockquote><p>&ldquo;Cellpak are our first port of call when we have a need for branded packaging.  They really understand exactly what is required in terms of packaging performance.&rdquo;</p><strong>Richard Jones, European Telecom Plc</strong></blockquote>

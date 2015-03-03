@@ -28,7 +28,7 @@ $(document).ready(function() {
   //testimonials silder
   $("#owl-testimonials").owlCarousel({
     singleItem: true,
-    autoHeight : true
+    autoPlay: true
   });
 
   // partners slider

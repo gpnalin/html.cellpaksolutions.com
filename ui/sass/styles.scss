@@ -24,6 +24,12 @@
 .img-responsive {
 	margin: 0 auto;
 }
+.pos-r{
+	position: relative;
+}
+.pos-s{
+	position: static;
+}
 .btn-learnmore{
 	background-color: #FFCB00;
 	border: none;
@@ -42,7 +48,9 @@
 ********************************/ 
 .mega-menu {
 	padding: 20px 0px ! important;
-	width: 600px;
+	margin:0 15px;
+	position: absolute;
+	left:0;
 	margin-top: 0px;
 	background-color: #000;
 	border: none;
@@ -51,11 +59,23 @@
 	li{
 		display: inline-block;
 		float: left;
+		width: 100%;
+		color: #FFCC00;
+		font-weight: bold;
+		text-align:center;
 		font-size: 13px;
 		padding: 0px 10px;
-		margin-bottom: 5px;
+		margin-bottom: 8px;
+		a{
+			color: #fff;
+			font-weight: normal;
+			width: 100%;
+			text-align: left;
+			float: left;
+			line-height: 1.1;
+		}
 		&.mega-menu-column{
-			width: 200px;
+			width: 20%;
 			border-right: 1px solid #797878;
 			&:last-child{
 			border-right: none;

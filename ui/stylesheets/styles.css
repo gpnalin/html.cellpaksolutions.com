@@ -2285,14 +2285,19 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 .img-responsive { margin: 0 auto; }
 
+.pos-r { position: relative; }
+
+.pos-s { position: static; }
+
 .btn-learnmore { background-color: #FFCB00; border: none; font-weight: bold; font-family: lato; font-size: 20px; color: #000; padding: 8px 55px; }
 .btn-learnmore:hover, .btn-learnmore:focus, .btn-learnmore:active { background-color: #FFCB00; color: #000; }
 
 /* MEGA MENU STYLE
 ********************************/
-.mega-menu { padding: 20px 0px !important; width: 600px; margin-top: 0px; background-color: #000; border: none; border-bottom: 3px solid #FFCB00; border-radius: 0px 8px 8px 8px; }
-.mega-menu li { display: inline-block; float: left; font-size: 13px; padding: 0px 10px; margin-bottom: 5px; }
-.mega-menu li.mega-menu-column { width: 200px; border-right: 1px solid #797878; }
+.mega-menu { padding: 20px 0px !important; margin: 0 15px; position: absolute; left: 0; margin-top: 0px; background-color: #000; border: none; border-bottom: 3px solid #FFCB00; border-radius: 0px 8px 8px 8px; }
+.mega-menu li { display: inline-block; float: left; width: 100%; color: #FFCC00; font-weight: bold; text-align: center; font-size: 13px; padding: 0px 10px; margin-bottom: 8px; }
+.mega-menu li a { color: #fff; font-weight: normal; width: 100%; text-align: left; float: left; line-height: 1.1; }
+.mega-menu li.mega-menu-column { width: 20%; border-right: 1px solid #797878; }
 .mega-menu li.mega-menu-column:last-child { border-right: none; }
 .mega-menu .nav-header { padding: 0 !important; margin-bottom: 10px; display: inline-block; width: 100%; border-bottom: 1px solid #ddd; }
 .mega-menu ul { padding: 0; }
