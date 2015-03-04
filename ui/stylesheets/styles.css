@@ -2327,3 +2327,5 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 /* Hover style
 ********************************/
 .navbar .nav > li > a, .mega-menu a { -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -ms-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease; /* -webkit-transform: translate3d(0, 0, 0); Webkit Hardware Acceleration*/ -webkit-backface-visibility: hidden; /* Safari Flicker Fix #2 */ -webkit-transform: translateZ(0); }
+
+.twitter-timeline { width: 100% !important; }
