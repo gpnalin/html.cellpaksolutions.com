@@ -1,7 +1,7 @@
 .navbar-brand { height: auto; width: 100%; text-align: center; display: block; padding: 10px 0 0; }
 .navbar-brand img { margin: auto; width: auto; max-height: 100px; }
 
-.navbar-main { background-color: #ffcc00; border-bottom: 7px solid #000; margin-bottom: 0; }
+.navbar-main { border: none; border-radius: 0; background-color: #ffcc00; border-bottom: 7px solid #000; margin-bottom: 0; }
 .navbar-main .navbar-toggle { background-color: #000; border-color: #000; }
 .navbar-main .navbar-toggle:hover, .navbar-main .navbar-toggle:focus, .navbar-main .navbar-toggle:active { background-color: #000; }
 .navbar-main .navbar-toggle .icon-bar { background-color: #FFCB00; }
@@ -57,30 +57,29 @@
 #owl-main-carousel .owl-buttons .owl-next { background-position: 0 0; right: 0; }
 #owl-main-carousel .owl-buttons .owl-next:hover, #owl-main-carousel .owl-buttons .owl-next.next-hover { background-position: 0 -42px; }
 
-#subsidaries { margin-top: 35px; margin-bottom: 20px; }
+#subsidaries { margin-top: 20px; margin-bottom: 0px; }
 #subsidaries .row { margin-bottom: 20px; }
 #subsidaries .row .subsidary-box { background-color: #EBEBEB; border-radius: 10px; padding: 30px 20px 20px; }
 #subsidaries .row .subsidary-box .logo-holder img { min-width: 100%; }
 #subsidaries .row .subsidary-box p { font-size: 15.2px; font-weight: 300; margin: 10px 0px 20px; }
 #subsidaries .row .subsidary-box .btn-learnmore { background-color: #FFCB00; border: none; font-weight: 600; font-size: 17px; color: #000; line-height: 1; padding: 10px 45px; }
 
-#c2a-one { background-color: #EDEDED; }
-#c2a-one .container { background-image: url(../images/all-you-need.png); background-repeat: no-repeat; background-position: center right 15px; background-size: contain; }
-#c2a-one .container h3 { font-size: 38px; font-weight: 300; margin: 0 0 20px; }
-#c2a-one .container p { font-size: 17px; font-weight: 300; margin-bottom: 20px; }
-#c2a-one .container a { color: #468BBB; }
-#c2a-one .container a:hover, #c2a-one .container a:focus { text-decoration: none; }
-#c2a-one .container .c2a-text { padding-top: 40px; padding-bottom: 30px; }
-#c2a-one .container .c2a-text .btn-learnmore { border: 1px solid #C3C3C3; background: #999999; color: #fff; font-weight: bold; padding: 10px 60px; line-height: 1; }
+#c2a-one { background-color: #EDEDED; background-image: url(../images/all-you-need.png); background-repeat: no-repeat; background-position: center right; background-size: contain; }
+#c2a-one h3 { font-size: 38px; font-weight: 300; margin: 0 0 10px; }
+#c2a-one p { font-size: 17px; font-weight: 300; margin-bottom: 10px; }
+#c2a-one a { color: #468BBB; }
+#c2a-one a:hover, #c2a-one a:focus { text-decoration: none; }
+#c2a-one .c2a-text { padding-top: 15px; padding-bottom: 15px; padding-left: 30px; }
+#c2a-one .c2a-text .btn-learnmore { border: 1px solid #C3C3C3; background: #999999; color: #fff; font-weight: bold; padding: 10px 60px; line-height: 1; }
 
-#quote #owl-testimonials { padding: 40px 15px; }
+#quote #owl-testimonials { padding: 20px 15px; }
 #quote #owl-testimonials blockquote { width: 100%; border: none; font-size: 24px; font-weight: 300; margin: 0; padding: 0 0 10px; color: #656565; }
 #quote #owl-testimonials blockquote p { margin: 0; }
 #quote #owl-testimonials blockquote strong { width: 100%; }
 #quote .owl-theme .owl-controls .owl-page span { background: #656565; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75); opacity: 0.75; }
 #quote .owl-theme .owl-controls .owl-page.active span, #quote .owl-theme .owl-controls .owl-page:hover span { background: #FFCC00; }
 
-#partners { margin-bottom: 50px; }
+#partners { margin-bottom: 20px; }
 #partners #owl-wrapper { position: relative; }
 #partners #owl-wrapper #owl-partners { width: 100%; margin: auto; position: relative; padding: 0 30px; }
 #partners #owl-wrapper #owl-partners .item { margin: 0px 20px; }
@@ -90,15 +89,15 @@
 #partners #owl-wrapper .customNavigation .partners-prev { background-position: 0 -131px; left: 0; }
 #partners #owl-wrapper .customNavigation .partners-next { background-position: 0 -114px; right: 0; }
 
-#newsletter { background-color: #FFCB00; border-top: 1px solid #FFF2BF; padding: 20px 0; }
-#newsletter h4 { margin: 0; line-height: 1.4; }
-#newsletter p { font-size: 13px; margin: 10px 0 0 0; }
+#newsletter { background-color: #FFCB00; border-top: 1px solid #FFF2BF; padding: 10px 15px; }
+#newsletter h4 { margin: 0; line-height: 1; }
+#newsletter p { font-size: 13px; margin: 5px 0 0 0; }
 #newsletter a { color: inherit; text-decoration: underline; }
-#newsletter .form-newsletter { margin: 5px 0px 0px; }
+#newsletter .form-newsletter { margin: 0px 0px 0px; }
 #newsletter .form-newsletter .form-control, #newsletter .form-newsletter .btn-submit { height: 40px; border-radius: 8px; }
 #newsletter .form-newsletter .btn-submit { color: #fff; background-color: #000; font-weight: bold; font-size: 17px; border: none; text-decoration: none; padding: 10px 50px; line-height: 1; }
 
-footer #fblocks { background: #000; padding: 25px 0 40px; }
+footer #fblocks { background: #000; padding: 15px; }
 footer #fblocks a { color: inherit; }
 footer #fblocks a:hover, footer #fblocks a:focus, footer #fblocks a:active { text-decoration: none; }
 footer #fblocks .footer-block h4 { margin: 0; color: #fff; font-size: 15.2px; font-weight: bold; margin-bottom: 20px; }
@@ -108,20 +107,22 @@ footer #fblocks .footer-block ul li { width: 100%; border-bottom: 1px solid #FFC
 footer #fblocks .footer-block ul li:first-child { padding-top: 0px; }
 footer #fblocks .footer-block #address p { margin: 0; font-size: 13px; }
 footer #fblocks .footer-block .social-links { margin: 15px 0 0; }
-footer #copyright { padding: 20px 0px; background-color: #fff; }
+footer #fblocks .twitter-timeline-rendered { max-height: 200px !important; }
+footer #copyright { padding: 5px 0px; background-color: #fff; }
 footer #copyright p { color: #333333; margin: 0; font-size: 13px; }
 footer #copyright a { color: #999999; }
 
 /* ---------- About Us Page ---------- */
-#page-banner { margin-bottom: 60px; }
+#page-banner { margin-bottom: 30px; }
 #page-banner img { min-width: 100%; }
 
 .all-icons-sprite, .sidebar .sidebar-nav ul li:before, .sidebar .sidebar-nav ul li:hover, .sidebar .sidebar-nav ul li:focus, .sidebar .sidebar-nav ul li:active, .sidebar .sidebar-nav ul li.active, .sidebar .sidebar-nav ul li:hover:before, .sidebar .sidebar-nav ul li:focus:before, .sidebar .sidebar-nav ul li:active:before, .sidebar .sidebar-nav ul li.active:before, #rss-feed { background-image: url('../images/generated/all-icons-s9980aea7cd.png'); background-repeat: no-repeat; }
 
-.content-wrapper { margin-bottom: 40px; }
+.content-wrapper { margin-bottom: 20px; }
 
 .sidebar .sidebar-block { margin-bottom: 20px; }
 .sidebar .sidebar-block .block-title { font-size: 16px; font-weight: bold; color: #111111; margin-bottom: 20px; }
+.sidebar .sidebar-banner img { max-width: 100%; }
 .sidebar .sidebar-nav ul { margin: 0; padding: 0; list-style: none; }
 .sidebar .sidebar-nav ul li { margin: 10px 0px; padding-left: 30px; line-height: 22px; font-size: 14px; }
 .sidebar .sidebar-nav ul li:before { content: " "; background-position: 0 -18px; width: 20px; height: 20px; position: absolute; left: 15px; }
@@ -142,7 +143,7 @@ footer #copyright a { color: #999999; }
 .main-content hr { margin: 0; color: #CCCCCC; }
 
 /* ---------- Landing Page ---------- */
-.landing-wrapper { margin-top: 40px; }
+.landing-wrapper { margin-top: 20px; }
 .landing-wrapper h3 { margin-top: 0; }
 
 #free-download { background-color: #111111; border-radius: 10px; padding: 25px; font-family: Verdana, Geneva, sans-serif; }
@@ -199,7 +200,8 @@ footer #copyright a { color: #999999; }
   #newsletter .form-newsletter { margin: 0; }
   #newsletter .form-newsletter .form-group { width: 100%; margin-bottom: 10px; }
   #newsletter .form-newsletter .btn-submit { width: auto; float: right; }
-  footer #fblocks .footer-block { margin-bottom: 20px; } }
+  footer #fblocks .footer-block { margin-bottom: 20px; }
+  footer #fblocks .twitter-timeline-rendered { max-height: 300px !important; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) { .navbar-collapse .main-nav { display: block; margin: 0; }
   .navbar-collapse .main-nav > li { float: left; width: 100%; }

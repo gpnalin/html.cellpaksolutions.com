@@ -13,7 +13,9 @@
     <?php include 'header.php'; ?>
 
     <section id="page-banner">
-        <img class="img-responsive inline" src="ui/images/banner-landing-page.jpg">
+        <div class="container">
+            <img class="img-responsive inline" src="ui/images/banner-landing-page.jpg">
+        </div>
     </section>
 
     <main class="content-wrapper">

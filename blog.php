@@ -13,7 +13,9 @@
     <?php include 'header.php'; ?>
 
     <section id="page-banner">
-        <img class="img-responsive inline" src="ui/images/banner-inner.jpg">
+        <div class="container">
+            <img class="img-responsive inline" src="ui/images/banner-inner.jpg">
+        </div>
     </section>
 
     <main class="content-wrapper">
@@ -48,9 +50,18 @@
                         </ul>
                     </aside>
                     <aside class="sidebar-block sidebar-banner">
-                        <a href="#">
-                            <img class="img-responsive" src="ui/images/sidebar-banner.gif">
-                        </a>
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-9282fca7-423b-4cbc-a669-1924008f2cdf">
+                            <span class="hs-cta-node hs-cta-9282fca7-423b-4cbc-a669-1924008f2cdf" id="hs-cta-9282fca7-423b-4cbc-a669-1924008f2cdf">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="http://cta-redirect.hubspot.com/cta/redirect/229643/9282fca7-423b-4cbc-a669-1924008f2cdf"  target="_blank" ><img class="hs-cta-img img-responsive" id="hs-cta-img-9282fca7-423b-4cbc-a669-1924008f2cdf" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/229643/9282fca7-423b-4cbc-a669-1924008f2cdf.png"  alt="New Call-to-action"/></a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(229643, '9282fca7-423b-4cbc-a669-1924008f2cdf');
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
                     </aside>
                     <aside class="sidebar-block sidebar-testimonial">
                         <div class="testimonial-wrapper">

@@ -51,11 +51,11 @@
     </div>
 </section>
 
-<section id="newsletter">
-    <div class="container">
+<div class="container">
+    <section id="newsletter">
         <div class="row">
             <div class="col-xs-12 col-sm-9">
-                <h4><strong>Why not subscribe to our newsletter?</strong> A free monthly round up of the latest packaging & fulfilment news.</h4>
+                <h4><strong>Subscribe to our monthly newsletter</strong></h4>
                 <p>We respect your privacy. View our <a href="#">Privacy Policy</a> to find out more.</p>
             </div>
             <div class="col-xs-12 col-sm-3">
@@ -64,17 +64,17 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
+
 
 <footer id="footer">
-    <section id="fblocks">
-        <div class="container">
+    <div class="container">
+        <section id="fblocks">
             <div class="row">
                 <div class="col-sm-12 col-md-3 footer-block block-1-of-3">
                     <h4>About us</h4>
                     <p>Cellpak is a creative provider of end-to-end packaging and fulfilment solutions, specifically tailored to Card and Device.  We are trusted by our partners to add value, combining expertise and adeptness to deliver intelligent capability across a range of innovative products and services.</p>
-                    <p>From SIMs and smartcards to smartphones and tablets, games consoles, cameras and laptops - we can brand, print, package, store, pick, pack, ship and more...</p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-5 footer-block block-2-of-3">
                     <h4>Blog</h4>                        
@@ -84,8 +84,6 @@
                         <li><a href="#">Customer Information Leaflet Printing - Getting it right</a></li>
                         <li><a href="#">Top 3 Tips for Networking & Making Connections at a Trade Show</a></li>
                         <li><a href="#">Sim-Centric: SIM Card Inventory and Fulfilment for MNO & MVNO</a></li>
-                        <li><a href="#">Why should FMCG businesses choose to use an e-fulfilment partner?</a></li>
-                        <li><a href="#">Customer Information Leaflet Printing - Getting it right</a></li>                        
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 footer-block block-3-of-3">
@@ -93,16 +91,17 @@
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="copyright">
-        <div class="container">                
+        </section>
+    </div>
+    
+    <div class="container">
+        <section id="copyright">
             <div class="row">
                 <div class="col-xs-12">
                     <p class="pull-left">&copy; 2014 Cellpak Solutions Ltd. All rights reserved. <a href="#">Cookies & Privacy Policy</a></p>
                     <p class="pull-right">Web design and developed by <a href="#">One Creations</a></p>                    
                 </div>
-            </div>
-        </div>
-    </section>
+            </div>        
+        </section>
+    </div>
 </footer>

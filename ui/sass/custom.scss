@@ -21,6 +21,8 @@ $grey : #EDEDED;
 	}
 }
 .navbar-main{
+	border:none;
+	border-radius:0;
 	background-color: #ffcc00;
 	border-bottom: 7px solid #000;
 	margin-bottom: 0;
@@ -208,8 +210,8 @@ $grey : #EDEDED;
 }
 
 #subsidaries{
-	margin-top: 35px;
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
 	.row{
 		margin-bottom: 20px;
 		.subsidary-box{
@@ -242,47 +244,46 @@ $grey : #EDEDED;
 
 #c2a-one{
 	background-color: $grey;
-	.container{
-		background-image: url(../images/all-you-need.png);
-		background-repeat: no-repeat;
-		background-position: center right 15px;
-		background-size: contain;
+	background-image: url(../images/all-you-need.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: contain;
 
-		h3{
-			font-size: 38px;
-			font-weight: $font-weight-light;
-			margin: 0 0 20px;
-		}
-		p{
-			font-size: 17px;
-			font-weight: $font-weight-light;
-			margin-bottom: 20px;
-		}
-		a{
-			color: #468BBB;
-			&:hover,&:focus{
-				text-decoration:none;
-			}
-		}
-		.c2a-text{
-			padding-top: 40px;
-			padding-bottom: 30px;
-			.btn-learnmore{
-				border: 1px solid #C3C3C3;
-				background: #999999;
-				color: #fff;
-				font-weight: bold;
-				padding: 10px 60px;
-				line-height: 1;
-			}
-		}
-		
+	h3{
+		font-size: 38px;
+		font-weight: $font-weight-light;
+		margin: 0 0 10px;
 	}
+	p{
+		font-size: 17px;
+		font-weight: $font-weight-light;
+		margin-bottom: 10px;
+	}
+	a{
+		color: #468BBB;
+		&:hover,&:focus{
+			text-decoration:none;
+		}
+	}
+	.c2a-text{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 30px;
+		.btn-learnmore{
+			border: 1px solid #C3C3C3;
+			background: #999999;
+			color: #fff;
+			font-weight: bold;
+			padding: 10px 60px;
+			line-height: 1;
+		}
+	}
+
 }
 
 #quote{
 	#owl-testimonials{
-		padding: 40px 15px;
+		padding: 20px 15px;
 		blockquote{
 			width: 100%;
 			border: none;
@@ -317,7 +318,7 @@ $grey : #EDEDED;
 }
 
 #partners{
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	#owl-wrapper{
 		position: relative;
 		#owl-partners{
@@ -360,14 +361,14 @@ $grey : #EDEDED;
 #newsletter{
 	background-color: $yellow-cb;
 	border-top: 1px solid #FFF2BF;
-	padding: 20px 0;
+	padding: 10px 15px;
 	h4{
 		margin: 0;
-		line-height: 1.4;
+		line-height: 1;
 	}
 	p{
 		font-size: 13px;
-		margin: 10px 0 0 0;
+		margin: 5px 0 0 0;
 	}
 	a{
 		color: inherit;
@@ -375,7 +376,7 @@ $grey : #EDEDED;
 	}
 
 	.form-newsletter{
-		margin: 5px 0px 0px;
+		margin: 0px 0px 0px;
 		.form-control,.btn-submit{
 			height: 40px;
 			border-radius: 8px;
@@ -396,7 +397,7 @@ $grey : #EDEDED;
 footer{
 	#fblocks{
 		background:#000;
-		padding: 25px 0 40px;
+		padding: 15px;
 		a{
 			color: inherit;
 			&:hover,&:focus,&:active{
@@ -444,10 +445,16 @@ footer{
 				margin: 15px 0 0;
 			}
 		}
+		.block-1-of-3{}
+		.block-2-of-3{}
+		.block-3-of-3{}
+		.twitter-timeline-rendered{
+			max-height: 200px !important;
+		}
 		
 	}
 	#copyright{
-		padding: 20px 0px;
+		padding: 5px 0px;
 		background-color: #fff;
 		p{
 			color: #333333;
@@ -462,14 +469,14 @@ footer{
 
 /* ---------- About Us Page ---------- */
 #page-banner{
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	img{
 		min-width: 100%;
 	}
 }
 @import "all-icons/*.png";
 .content-wrapper{
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 .sidebar{
 	.sidebar-block{
@@ -479,6 +486,11 @@ footer{
 			font-weight: bold;
 			color: #111111;
 			margin-bottom: 20px;
+		}
+	}
+	.sidebar-banner{
+		img{
+			max-width: 100%;
 		}
 	}
 	.sidebar-nav{
@@ -573,7 +585,7 @@ footer{
 
 /* ---------- Landing Page ---------- */
 .landing-wrapper{
-	margin-top: 40px;
+	margin-top: 20px;
 	h3{
 		margin-top: 0;
 	}
@@ -818,6 +830,9 @@ footer{
 		#fblocks{
 			.footer-block{
 				margin-bottom: 20px;
+			}
+			.twitter-timeline-rendered{
+				max-height: 300px !important;
 			}
 		}
 	}

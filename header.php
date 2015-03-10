@@ -1,8 +1,7 @@
-
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-main">
-    <div class="container">            
-
+<!-- container-fluid -->
+<div class="container">   
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-main">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -12,10 +11,9 @@
                 <span class="icon-bar"></span>
             </button>                
         </div>
-
         <div class="pos-r row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <a class="navbar-brand" href="#"><img src="ui/images/logo.jpg" alt="CellPak Solutions" class="img-responsive inline" width="345" height="119"></a>
+                <a class="navbar-brand" href="index.php"><img src="ui/images/logo.jpg" alt="CellPak Solutions" class="img-responsive inline" width="345" height="119"></a>
             </div>
             <div class="pos-s col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <div class="row">
@@ -159,8 +157,6 @@
                 
             </div>
         </div>     
-
-        
-    </div>
-    <!-- /.container-fluid -->
     </nav>
+</div>
+<!-- /.container-fluid -->
