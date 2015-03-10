@@ -66,11 +66,13 @@
 
 #c2a-one { background-color: #EDEDED; background-image: url(../images/all-you-need.png); background-repeat: no-repeat; background-position: center right; background-size: contain; }
 #c2a-one h3 { font-size: 38px; font-weight: 300; margin: 0 0 10px; }
-#c2a-one p { font-size: 17px; font-weight: 300; margin-bottom: 10px; }
+#c2a-one p { font-size: 17px; font-weight: 300; margin-bottom: 0px; }
 #c2a-one a { color: #468BBB; }
 #c2a-one a:hover, #c2a-one a:focus { text-decoration: none; }
-#c2a-one .c2a-text { padding-top: 15px; padding-bottom: 15px; padding-left: 30px; }
+#c2a-one .c2a-text { padding-top: 15px; padding-bottom: 15px; }
 #c2a-one .c2a-text .btn-learnmore { border: 1px solid #C3C3C3; background: #999999; color: #fff; font-weight: bold; padding: 10px 60px; line-height: 1; }
+#c2a-one .hubspot-wrapper { padding: 15px 0 15px 15px; }
+#c2a-one .hubspot-wrapper img { max-width: 100%; }
 
 #quote #owl-testimonials { padding: 20px 15px; }
 #quote #owl-testimonials blockquote { width: 100%; border: none; font-size: 24px; font-weight: 300; margin: 0; padding: 0 0 10px; color: #656565; }
@@ -89,7 +91,7 @@
 #partners #owl-wrapper .customNavigation .partners-prev { background-position: 0 -131px; left: 0; }
 #partners #owl-wrapper .customNavigation .partners-next { background-position: 0 -114px; right: 0; }
 
-#newsletter { background-color: #FFCB00; border-top: 1px solid #FFF2BF; padding: 10px 15px; }
+#newsletter { background-color: #FFCB00; border-top: 1px solid #FFF2BF; padding: 15px; }
 #newsletter h4 { margin: 0; line-height: 1; }
 #newsletter p { font-size: 13px; margin: 5px 0 0 0; }
 #newsletter a { color: inherit; text-decoration: underline; }

@@ -257,7 +257,7 @@ $grey : #EDEDED;
 	p{
 		font-size: 17px;
 		font-weight: $font-weight-light;
-		margin-bottom: 10px;
+		margin-bottom: 0px;
 	}
 	a{
 		color: #468BBB;
@@ -268,7 +268,6 @@ $grey : #EDEDED;
 	.c2a-text{
 		padding-top: 15px;
 		padding-bottom: 15px;
-		padding-left: 30px;
 		.btn-learnmore{
 			border: 1px solid #C3C3C3;
 			background: #999999;
@@ -276,6 +275,12 @@ $grey : #EDEDED;
 			font-weight: bold;
 			padding: 10px 60px;
 			line-height: 1;
+		}
+	}
+	.hubspot-wrapper{
+		padding:15px 0 15px 15px;
+		img{
+			max-width: 100%;
 		}
 	}
 
@@ -361,7 +366,7 @@ $grey : #EDEDED;
 #newsletter{
 	background-color: $yellow-cb;
 	border-top: 1px solid #FFF2BF;
-	padding: 10px 15px;
+	padding: 15px;
 	h4{
 		margin: 0;
 		line-height: 1;

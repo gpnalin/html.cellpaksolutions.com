@@ -93,21 +93,25 @@
     <div class="container">
         <section id="c2a-one">
             <div class="row">
-                <div class="col-sm-12 col-md-8 c2a-text">
-                    <h3>All you need for card and device...</h3>
-                    <p><strong>Cellpak</strong> is a creative provider of end-to-end packaging and fulfilment solutions, specifically tailored to Card and Device.  We are trusted by our <a href="#">partners</a> to add value, combining expertise and adeptness to deliver intelligent capability across a range of <a href="#">innovative products</a> and <a href="#">services</a>.</p>
-                    <!--HubSpot Call-to-Action Code -->
-                    <span class="hs-cta-wrapper" id="hs-cta-wrapper-9282fca7-423b-4cbc-a669-1924008f2cdf">
-                        <span class="hs-cta-node hs-cta-9282fca7-423b-4cbc-a669-1924008f2cdf" id="hs-cta-9282fca7-423b-4cbc-a669-1924008f2cdf">
-                            <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
-                            <a href="http://cta-redirect.hubspot.com/cta/redirect/229643/9282fca7-423b-4cbc-a669-1924008f2cdf"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-9282fca7-423b-4cbc-a669-1924008f2cdf" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/229643/9282fca7-423b-4cbc-a669-1924008f2cdf.png"  alt="New Call-to-action"/></a>
+                <div class="col-sm-12 col-md-3">
+                    <div class="hubspot-wrapper">
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-9282fca7-423b-4cbc-a669-1924008f2cdf">
+                            <span class="hs-cta-node hs-cta-9282fca7-423b-4cbc-a669-1924008f2cdf" id="hs-cta-9282fca7-423b-4cbc-a669-1924008f2cdf">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="http://cta-redirect.hubspot.com/cta/redirect/229643/9282fca7-423b-4cbc-a669-1924008f2cdf"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-9282fca7-423b-4cbc-a669-1924008f2cdf" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/229643/9282fca7-423b-4cbc-a669-1924008f2cdf.png"  alt="New Call-to-action"/></a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(229643, '9282fca7-423b-4cbc-a669-1924008f2cdf');
+                            </script>
                         </span>
-                        <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
-                        <script type="text/javascript">
-                            hbspt.cta.load(229643, '9282fca7-423b-4cbc-a669-1924008f2cdf');
-                        </script>
-                    </span>
-                    <!-- end HubSpot Call-to-Action Code -->
+                        <!-- end HubSpot Call-to-Action Code -->
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 c2a-text">
+                    <h3>All you need for card and device...</h3>
+                    <p><strong>Cellpak</strong> is a creative provider of end-to-end packaging and fulfilment solutions, specifically tailored to Card and Device.  We are trusted by our <a href="#">partners</a> to add value, combining expertise and adeptness to deliver intelligent capability across a range of <a href="#">innovative products</a> and <a href="#">services</a>.</p>  
                 </div>
             </div>
         </section>
