@@ -35,6 +35,7 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="pos-s nav main-nav navbar-nav">
+                                <li class="active"><a href="index.php">Home</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>                      
 
@@ -133,7 +134,16 @@
                                         </li>
                                     </ul><!-- dropdown-menu -->                                        
                                 </li><!-- /.dropdown -->
-                                <li class="active"><a href="#">Solutions</a></li>
+
+                                <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Solutions</a>
+                                  <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">PAK That</a></li>
+                                    <li><a href="#">Device Hub</a></li>
+                                    <li><a href="#">Breeze</a></li>
+                                    <li><a href="#">Co- Pak</a></li>
+                                  </ul>
+                                </li>
                                 <li><a href="about-us.php">About us</a></li>
                                 <li><a href="#">Contact us</a></li>
                                 <li><a href="blog.php">Blog</a></li>

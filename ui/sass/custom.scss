@@ -117,7 +117,7 @@ $grey : #EDEDED;
 				color: #000;
 				font-size: 14px;
 				@include border-top-radius(8px);
-				padding: 15px 15px 20px;
+				padding: 15px 10px 20px;
 				margin: 0 1px;
 				&:hover,&:focus,&:active{
 					color: #fff;
@@ -127,6 +127,29 @@ $grey : #EDEDED;
 		}
 		.dropdown{
 			position: static;
+			.dropdown-menu{
+				left: auto;
+				background-color: #000;
+				border: none;
+				border-bottom: 3px solid #FFCB00;
+				border-radius: 0px 8px 8px 8px;	
+				li{
+					color: #FFCC00;
+					font-weight: bold;
+					text-align:center;
+					font-size: 13px;
+					padding: 0px 10px;
+					margin-bottom: 8px;
+					a{
+						color: #fff;
+						font-weight: normal;
+						text-align: left;
+						line-height: 1.1;
+						background-color: black;
+					}
+				
+				}
+			}
 		}
 		.dropdown:hover, .dropdown:focus, .dropdown:active,  >.active, >.open{
 			>a{
@@ -789,7 +812,7 @@ footer{
 		.main-nav{
 			>li{
 				>a{
-					padding: 15px 14px;
+					padding: 15px 9px;
 				}
 			}
 		}
@@ -856,24 +879,38 @@ footer{
 					border-radius: 0;
 				}
 			}
-			.mega-menu{
-				position: relative;
+			.dropdown-menu{
+				position: relative !important;
 				width: 100%;
 				border: none;
 				border-bottom: 1px solid #fff;
 				border-top: 1px solid #fff;
 				border-radius: 0;
 				padding: 0 !important;
+				margin: 0 !important;
 				>li{
 					width: 100%;
 					border-right:none;
 					background-color: #333;
-					margin: 0;
+					margin: 0 !important;
+					padding: 0 !important;
+					text-align: center;
+					>a{
+						padding: 10px 0px !important;
+						text-align: center !important;
+					}
 					>ul{
 						>li{
 							width: 100%;
 							text-align: center;
 							line-height: 2;
+							margin: 0 !important;
+							padding: 0 !important;
+							>a{
+								margin: 0 !important;
+								padding: 10px !important;
+								text-align: center !important;
+							}							
 						}
 					}
 				}
